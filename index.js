@@ -20,7 +20,4 @@ function nowServing(x) {
         for(var i = 0; i < n.length; i++) {
           line += (i + 1) + ". " + n[i] + ", "
         }
-        line = line.slice(0, line.length-2)
-        return "The line is currently: " + line;
-      }
     }
