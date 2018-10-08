@@ -5,3 +5,18 @@ function takeANumber(katzDeliLine, name) {
     return "Welcome, " + name + ". You are number " + katzDeliLine.length +" in line."
   }
 //returns the person's name with their place in line
+function nowServing(katzDeliLine) {
+  if (katzDeliLine.length === 0) {
+  return "There is nobody waiting to be served!"
+  } else {
+    var firstPerson = katzDeliLine.shift(0);
+    return firstPerson;
+  }
+}
+  function currentLine(katzDeliLine) {
+      if (katzDeliLine.length === 0) {
+        return "The line is currently empty."
+      } else {
+        return `The Line is currently : ${katzDeliLine(i)} + . ${name(i)}`;
+        }
+    }
