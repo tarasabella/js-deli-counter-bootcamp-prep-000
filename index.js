@@ -11,6 +11,6 @@ function nowServing(katzDeliLine) {
   } else {
     var firstPerson = [];
     firstPerson = katzDeliLine.shift(0);
-    return "Currently serving " + firstPerson + " .";
+    return "Currently serving " + firstPerson + ".";
   }
 }
