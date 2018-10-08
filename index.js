@@ -21,5 +21,6 @@ function nowServing(x) {
           line += (i + 1) + ". " + n[i] + ", "
         }
         line = line.slice(0, line.length-2)
-        return "The line is currently: " + line
+        return "The line is currently: " + line;
       }
+    }
