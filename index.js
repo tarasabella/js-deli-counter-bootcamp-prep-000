@@ -20,5 +20,5 @@ function currentLine(katzDeliLine) {
       return "The line is currently empty."
   }
     } else {
-      return `The Line is currently : ${katzDeliLine(i). ${name}`; }
+      return `The Line is currently : ${katzDeliLine(i)}. ${name}`; }
     }
