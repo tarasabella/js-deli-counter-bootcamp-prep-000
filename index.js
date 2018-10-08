@@ -15,9 +15,10 @@ function nowServing(katzDeliLine) {
   }
 }
 function currentLine(katzDeliLine) {
+  for (let i = 1; i < katzDeliLine.length; i++) {
     if (katzDeliLine.length === 0) {
       return "The line is currently empty."
-    } else {
-      return "The Line is currently : 1. " + katzDeliLine(0) + ", 2." + katzDeliLine[1];
-      }
   }
+    } else {
+      return `The Line is currently : ${katzDeliLine(i). ${name}`; }
+    }
